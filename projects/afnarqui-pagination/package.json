@@ -1,6 +1,6 @@
 {
   "name": "afnarqui-pagination",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "permite filtrar según la información que recibe y paginar la misma",
   "keywords": [
     "filter",

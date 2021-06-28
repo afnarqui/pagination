@@ -1,8 +1,7 @@
-<h1>Listado</h1>
-<hr>
 <input
     type="text"
     placeholder="buscar..."
+    class="inputSearch"
     #txtSearch
     (keyup)="onSearch(txtSearch.value)"
 />
@@ -19,11 +18,11 @@
         </div>
     </div>
 </div>
-<button (click)="prevPage()">
+<button class="boton" (click)="prevPage()">
     <<
 </button>
 &nbsp;
-<button (click)="nextPage()"
+<button class="boton" (click)="nextPage()"
 [disabled]="(body | filtro:page:search:field).length === 0">
     >>
 </button>

@@ -35,11 +35,9 @@ export class PaginationListComponent implements OnInit {
   }
 
   selectItems(item: any) {
-    // alert(JSON.stringify(item));
     this.spread.emit(item);
   }
   onSearch(search: string) {
-    // this.page = 0;
     this.search = search;
 }
 }

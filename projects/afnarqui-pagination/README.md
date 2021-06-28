@@ -46,4 +46,6 @@ import { AfnarquiPaginationModule } from 'afnarqui-pagination';
     console.log(JSON.stringify(event))
   }
 ````
+[![N|Solid](https://trello-attachments.s3.amazonaws.com/60c7f640119a5852ad0d1760/1101x266/a2293e799e40a05ea993bcec2c10277b/image.png)](https://trello-attachments.s3.amazonaws.com/60c7f640119a5852ad0d1760/1101x266/a2293e799e40a05ea993bcec2c10277b/image.png)
+
 
