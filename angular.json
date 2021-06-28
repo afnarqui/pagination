@@ -105,6 +105,37 @@
           }
         }
       }
+    },
+    "afnarqui-pagination": {
+      "projectType": "library",
+      "root": "projects/afnarqui-pagination",
+      "sourceRoot": "projects/afnarqui-pagination/src",
+      "prefix": "ap",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/afnarqui-pagination/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/afnarqui-pagination/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/afnarqui-pagination/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/afnarqui-pagination/src/test.ts",
+            "tsConfig": "projects/afnarqui-pagination/tsconfig.spec.json",
+            "karmaConfig": "projects/afnarqui-pagination/karma.conf.js"
+          }
+        }
+      }
     }
   },
   "defaultProject": "listPagination"

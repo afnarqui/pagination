@@ -2,6 +2,12 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "afnarqui-pagination": [
+        "dist/afnarqui-pagination/afnarqui-pagination",
+        "dist/afnarqui-pagination"
+      ]
+    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,

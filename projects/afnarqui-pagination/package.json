@@ -1,0 +1,27 @@
+{
+  "name": "afnarqui-pagination",
+  "version": "0.0.3",
+  "description": "permite filtrar según la información que recibe y paginar la misma",
+  "keywords": [
+    "filter",
+    "pagination"
+  ],
+  "homepage": "https://github.com/afnarqui/pagination#readme",
+  "bugs": {
+    "url": "https://github.com/afnarqui/pagination/issues",
+    "email": "afnarqui9@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Andrés Felipe Naranjo Quintero",
+    "email": "afnarqui9@gmail.com",
+    "url": "https://andresnaranjo-marcapersonal.web.app/"
+  },
+  "peerDependencies": {
+    "@angular/common": "^12.0.5",
+    "@angular/core": "^12.0.5"
+  },
+  "dependencies": {
+    "tslib": "^2.1.0"
+  }
+}
